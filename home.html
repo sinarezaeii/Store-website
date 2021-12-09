@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/style.css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      
+    />
+    <script src="https://kit.fontawesome.com/b2608b4225.js" crossorigin="anonymous"></script>
+    <title>Mraket-sina</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-right">
+          <a href=""><i class="far fa-user"></i></a>
+          <a href=""><i class="fas fa-shopping-cart"></i></a>
+          <a href=""><i class="fas fa-home"></i></a>
+          <a href=""><i class="fas fa-search"></i></a>
+        </div>
+        
+        Mraket-sina
+       
+      
+    
+
+        <div class="nav-left">
+          <div class="register-login-btn">
+            <i class="fas fa-user"></i>
+            <a href="#">ثبت نام / ورود</a>
+          </div>
+        </div>
+      </nav>
+      <section class="slider">
+        <div class="slides">
+          <div class="item  active" id="slide1">
+            <img src="./images/ssd-2t.jpg" alt="" />
+            
+            <span style="color:#000">دوره هارد تمام شده<br/> زمان استفاده از ssd است!</span>
+          </div>
+          <div class="item " id="slide2">
+            <img src="./images/ssd-fast.jpg" alt="" />
+            <span style="color:dimgray;"
+              >سرعت<br />
+              رو هم میشه خرید</span
+            >
+          </div>
+          <div class="item " id="slide3">
+            <img src="./images/ssd-1t.jpg" alt="" />
+            <span style="color:#000; ">زمان رو مدیریت کنید</span>
+          </div>
+        </div>
+        <div class="buttons">
+          <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="product-sec-new">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/1.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل Blue WD10EZEX ظرفیت 1 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۱,۰۱۰,۰۰۰ تـومـان </span>
+                
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/2.jpg" alt="" />
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل Purple WD20PURZ ظرفیت 2 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۱,۶۲۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/3.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال سری سبز مدل WD10EURX ظرفیت 1 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۸۹۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/4.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال سری سبز مدل WD10EURX-63FH1Y0 ظرفیت 1 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۹۲۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="supper-offer-section">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="supper-offer-box">
+              <span class="supper-offer-box-title">
+                پیشنهاد شگفت انگیز
+              </span>
+              <div class="body">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="image-container">
+                      <img src="./images/5.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="spesification">
+                      <div class="price-row">
+                        <div class="price">۳,۲۰۰,۰۰۰ تـومـان</div>
+                        <div class="off">30 % تخفیف</div>
+                      </div>
+                      <div class="title">
+                        هارددیسک اینترنال وسترن دیجیتال مدل Purple WD60PURX ظرفیت 6 ترابایت</div>
+                      <div class="counter-down">
+                        <span id="seconds">40</span> :
+                        <span id="minutes">26</span> :
+                        <span id="hours">19</span>
+                      </div>
+                      <div class="remaining-time">
+                       زمان باقی مانده تا پایان تخفیف
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="banner">
+              <img src="./images/1234/Slide1.JPG" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="dragble-list">
+        <div class="title">
+          <span>موارد بیشتر</span>
+        </div>
+        <div id="owl-product" class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/6.jpg" alt="" />
+                <span class="hot-offer">محبوب ترین</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل Purple WD40PURZ ظرفیت 4 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۲,۵۰۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/7.jpg" alt="" />
+                <span class="hot-offer">پر بازدیدترین</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل Black WD1003FZEX ظرفیت 1 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۲,۳۱۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/8.jpg" alt="" />
+                <span class="hot-offer">پرطرفدار</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل Red WD40EFRX ظرفیت 4 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۳,۵۰۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/9.jpg" alt="" />
+                <span class="hot-offer">فروش ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل Blue WD5000AZLX ظرفیت 500 گیگابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۴۰۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/10.ipg.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل AV-GP WD5000AVVS ظرفیت 500 گیگابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۳۸۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/11.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+               هارد دیسک اینترنال وسترن دیجیتال مدل WD BLUE WD5000AAKX ظرفیت 500 گیگابایت
+              
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۴۰۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/12.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل Blue WD10EZEX ظرفیت 1 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۱,۰۰۰,۰۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/13.jpg" alt="" />
+                <span class="hot-offer">محبوب ترین</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل Red WD40EFRX ظرفیت 4 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۳,۵۰۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="shoping-card">
+              <div class="img-sec">
+                <img src="./images/14.jpg" alt="" />
+                <span class="hot-offer">پیشنهاد ویژه</span>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="title">
+                هارددیسک اینترنال وسترن دیجیتال مدل Purple WD60PURZ ظرفیت 6 ترابایت
+              </div>
+              <div class="buttons">
+                <div class="right">
+                  <span class="price">۳,۶۹۰,۰۰۰ تـومـان</span>
+                </div>
+                <div class="left">
+                  <div class="extend-btn">
+                    <a class="b-text" href="">علاقه</a>
+                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                  </div>
+                  <div class="extend-btn">
+                    <a class="b-text" href="">خرید</a>
+                    <a class="b-icon" href=""
+                      ><i class="fas fa-shopping-cart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="right">
+            <div class="title">
+              درباره ما
+            </div>
+            <div class="des">
+              مارکت سینا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل، پرداخت در محل، ۷ روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به سایت با دنیایی از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="left">
+            <div class="title">
+              ما را در شبکه های اجتماعی دنبال کنید 
+            </div>
+            <div class="socials">
+              <a href="https://github.com/sinarezaeii"><i class="fab fa-twitter"></i></a>
+              <a href="https://github.com/sinarezaeii"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/sinarezaeii"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/sinarezaeii"><i class="fab fa-telegram-plane"></i></a>
+              <a href="https://github.com/sinarezaeii"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        کلیه حقوق محفوظ می باشد 2021 ©
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+  </body>
+</html>
